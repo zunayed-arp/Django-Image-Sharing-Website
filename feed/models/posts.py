@@ -21,6 +21,7 @@ class Post(models.Model):
     pic = models.ImageField(upload_to='media')
     created_at = models.DateTimeField(auto_now_add=True)
     user_name = models.ForeignKey(User, on_delete=models.CASCADE)
+    tags = models.CharField(max_length=100,blank=True)
 
     def __str__(self) -> str:
         return self.description
