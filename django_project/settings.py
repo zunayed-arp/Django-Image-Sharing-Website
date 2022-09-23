@@ -89,16 +89,31 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'railway',
+#         'USER': 'postgres',
+#         'PASSWORD': 'ZCjAi9PCAIqJaay7oePq',
+#         'HOST': 'containers-us-west-37.railway.app',
+#         'PORT': '5471',
+#     }
+# }
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
+        'NAME': 'photosharedb',
         'USER': 'postgres',
-        'PASSWORD': 'ZCjAi9PCAIqJaay7oePq',
-        'HOST': 'containers-us-west-37.railway.app',
+        'PASSWORD': 'postgres',
+        'HOST': '127.0.0.1',
         'PORT': '5471',
     }
 }
+
+
+
 
 
 # Password validation
