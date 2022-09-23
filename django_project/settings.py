@@ -92,11 +92,11 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'photosharedb',
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'PASSWORD': 'ZCjAi9PCAIqJaay7oePq',
+        'HOST': 'containers-us-west-37.railway.app',
+        'PORT': '5471',
     }
 }
 
